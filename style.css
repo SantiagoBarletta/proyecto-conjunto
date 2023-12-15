@@ -1,0 +1,100 @@
+/*TIPOGRAFIA TARJETAS*/
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Bellefair&family=Cinzel&family=DM+Sans:opsz@9..40&family=Dancing+Script:wght@600&family=Kurale&family=Life+Savers&family=Merriweather:wght@300&family=Montez&family=Montserrat:wght@300;400;700&family=Sorts+Mill+Goudy&family=Spectral&display=swap');
+/*font-family: 'Spectral', serif;*/
+/*TIPOGRAFIA MENU*/
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Bellefair&family=Cinzel&family=DM+Sans:opsz@9..40&family=Dancing+Script:wght@600&family=Kurale&family=Life+Savers&family=Merriweather:wght@300&family=Montez&family=Montserrat:wght@300;400;700&family=Source+Sans+3&display=swap');
+/*font-family: 'Source Sans 3', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*NAV*/
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+    background-color: rgb(143, 143, 14);
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid;
+
+
+}
+
+.navbar-brand{
+color: rgb(139, 79, 0);
+
+}
+
+.navbar-toggler{
+    color: grey;
+
+}
+
+.container-fluid{
+    background-color: beige;
+}
+
+/*CARRUSEL*/
+.carousel {
+    margin-top: 3px;
+
+}
+
+.carousel-inner{
+    border-radius: 1px;
+
+}
+
+.carousel-items{
+    border-radius: 20px;
+
+}
+
+
+
+
+
+/*TARJETAS*/
+
+.tarjetasFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+.card-body{
+    background-color: rgb(252, 249, 249);
+
+    border-top: 1px solid black;
+
+}
+
+
+
+
+
+
+.card{
+
+    font-family: 'Spectral', serif;
+
+}
+
+.card-title{
+    font-weight: 600;
+    font-size: 2rem;
+}
