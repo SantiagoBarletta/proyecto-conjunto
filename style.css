@@ -137,3 +137,14 @@ color: rgb(139, 79, 0);
     justify-content: center;
 }
 
+.d-flex{
+background-color: beige;
+display: flex;
+gap: 6px;
+padding-right: 25px;
+justify-content: center;
+ }
+
+ 
+ 
+ 
