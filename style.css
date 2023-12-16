@@ -78,15 +78,16 @@ color: rgb(139, 79, 0);
 
 .card-body{
     background-color: rgb(252, 249, 249);
-
     border-top: 1px solid black;
-
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
 }
-
-
-
-
-
 
 .card{
 
@@ -97,4 +98,11 @@ color: rgb(139, 79, 0);
 .card-title{
     font-weight: 600;
     font-size: 2rem;
+    text-align: center;
 }
+
+.card-img-top{
+    height: 25rem;
+}
+
+
