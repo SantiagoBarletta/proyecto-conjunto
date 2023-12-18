@@ -43,20 +43,10 @@ p {
     border-radius: 5px;
 }
 
-.footer {
+.d-flex{
+    background-color: beige;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: larger;
-    font-weight: bolder;
-    width: 100%;
-    
-}
-.redes{
-
-justify-content:space-between;
-padding-left: 800px;
-}
-.bi{
-margin-right: 6px;
-}
+    gap: 6px;
+    padding-right: 25px;
+    justify-content: center;
+     }
